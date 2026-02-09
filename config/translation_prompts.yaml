@@ -1,0 +1,32 @@
+default_prompt: |
+  You are a professional translator. Translate the following text from {source_lang} to {target_lang}.
+  
+  Source text: {text}
+  Context: {context}
+  
+  Requirements:
+  - Maintain the original meaning precisely
+  - Use natural, idiomatic language
+  - Preserve any variables ({{var}}, {0}, %s, etc.)
+  - Match the tone and style
+  - Maximum length: {max_length} characters
+  
+  Provide only the translation, no explanations.
+
+ui_strings: |
+  Translate this user interface string from {source_lang} to {target_lang}.
+  Keep it concise and clear for end users.
+  
+  Source: {text}
+  Context: {context}
+  
+  Preserve variables and formatting. Maximum {max_length} characters.
+
+compliance: |
+  Translate this compliance/legal text from {source_lang} to {target_lang}.
+  Maintain precise legal meaning. Use formal language.
+  
+  Source: {text}
+  Context: {context}
+  
+  This is safety/compliance related. Accuracy is critical.

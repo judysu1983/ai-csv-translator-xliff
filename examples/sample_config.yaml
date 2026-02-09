@@ -1,0 +1,21 @@
+# Sample configuration for translation job
+
+source_language: en
+target_languages:
+  - zh-CN
+  - ja-JP
+  - fr-FR
+
+lqa_enabled: true
+lqa_threshold: 85
+
+batch_size: 50
+rate_limit: 100
+
+output_format: xliff_1.2
+
+tms_integration:
+  enabled: true
+  platform: phrase
+  add_comments: true
+  add_custom_fields: false

@@ -1,0 +1,42 @@
+dimensions:
+  accuracy:
+    weight: 0.30
+    description: "Meaning preservation and semantic correctness"
+    critical: true
+    
+  fluency:
+    weight: 0.20
+    description: "Natural language flow and readability"
+    critical: false
+    
+  terminology:
+    weight: 0.15
+    description: "Consistent and appropriate term usage"
+    critical: true
+    
+  style:
+    weight: 0.10
+    description: "Tone and register appropriateness"
+    critical: false
+    
+  grammar:
+    weight: 0.10
+    description: "Grammatical correctness"
+    critical: false
+    
+  completeness:
+    weight: 0.10
+    description: "No omissions or additions"
+    critical: true
+    
+  formatting:
+    weight: 0.05
+    description: "Preservation of variables and special characters"
+    critical: true
+
+thresholds:
+  excellent: 90
+  good: 80
+  fair: 70
+  poor: 0
+  auto_approve: 85
