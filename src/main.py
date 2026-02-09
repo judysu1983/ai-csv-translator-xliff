@@ -54,10 +54,10 @@ def translate(input_file, target_langs, output_dir, enable_lqa, lqa_threshold, b
           --enable-lqa \\
           --lqa-threshold 85
     """
-    from .converters.csv_reader import CSVReader
-    from .translators.ai_translator import AITranslator
-    from .translators.batch_processor import BatchProcessor
-    from .converters.xliff_generator import XLIFFGenerator
+    from src.converters.csv_reader import CSVReader
+    from src.translators.ai_translator import AITranslator
+    from src.translators.batch_processor import BatchProcessor
+    from src.converters.xliff_generator import XLIFFGenerator
 
     console.print(Panel.fit(
         "[bold blue]AI CSV Translator - Translation Mode (Mode A)[/bold blue]\n"

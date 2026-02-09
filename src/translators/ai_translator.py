@@ -9,8 +9,8 @@ from dataclasses import dataclass
 from datetime import datetime
 import re
 
-from ..utils.config_manager import ConfigManager
-from ..utils.logger import setup_logger
+from src.utils.config_manager import ConfigManager
+from src.utils.logger import setup_logger
 
 logger = setup_logger(__name__)
 

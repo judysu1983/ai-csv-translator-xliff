@@ -8,8 +8,8 @@ from pathlib import Path
 from typing import List, Dict, Any
 from dataclasses import dataclass, field
 
-from ..utils.validators import validate_csv_schema, REQUIRED_CSV_COLUMNS
-from ..utils.logger import setup_logger
+from src.utils.validators import validate_csv_schema, REQUIRED_CSV_COLUMNS
+from src.utils.logger import setup_logger
 
 logger = setup_logger(__name__)
 

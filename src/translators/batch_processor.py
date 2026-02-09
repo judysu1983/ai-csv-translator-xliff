@@ -6,9 +6,9 @@ Processes translation jobs in batches with progress tracking.
 from typing import List, Dict
 from tqdm import tqdm
 
-from ..converters.csv_reader import TranslationRecord
-from .ai_translator import AITranslator, TranslationResult
-from ..utils.logger import setup_logger
+from src.converters.csv_reader import TranslationRecord
+from src.translators.ai_translator import AITranslator, TranslationResult
+from src.utils.logger import setup_logger
 
 logger = setup_logger(__name__)
 

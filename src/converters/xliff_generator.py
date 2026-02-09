@@ -8,9 +8,9 @@ from pathlib import Path
 from typing import List, Optional
 from datetime import datetime
 
-from .csv_reader import TranslationRecord
-from ..translators.ai_translator import TranslationResult
-from ..utils.logger import setup_logger
+from src.converters.csv_reader import TranslationRecord
+from src.translators.ai_translator import TranslationResult
+from src.utils.logger import setup_logger
 
 logger = setup_logger(__name__)
 
